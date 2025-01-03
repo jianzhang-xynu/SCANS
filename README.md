@@ -10,21 +10,21 @@ The benchmark_datasets folder contains sample lists and corresponding protein se
 
 ## The format of these segments include:
 
-`A fixed length of 27 residues
+* A fixed length of 27 residues
 
-`Carbonylation annotation: "1" indicates a carbonylation site, while "0" indicates a non-carbonylation site.
+* Carbonylation annotation: "1" indicates a carbonylation site, while "0" indicates a non-carbonylation site.
 
-`Ligand interaction annotation: "1" indicates a ligand interaction site, while "0" indicates a non-ligand interaction site.
+* Ligand interaction annotation: "1" indicates a ligand interaction site, while "0" indicates a non-ligand interaction site.
 
-`Non-functional residue annotation: "1" indicates a non-functional residue, while "0" indicates a functional residue.
+* Non-functional residue annotation: "1" indicates a non-functional residue, while "0" indicates a functional residue.
 
 ## Examples:
 
-`RQLCELLKYAILGKSTLPKPSWCQLLH,1,0,0: This is a K-centered carbonylation segment, with the center K being a carbonylation site.
+* RQLCELLKYAILGKSTLPKPSWCQLLH,1,0,0: This is a K-centered carbonylation segment, with the center K being a carbonylation site.
 
-`DIDRDALYVTNAVKHFKFTRAAGGKRR,0,1,0: This is a K-centered ligand interaction segment, with the center K being a ligand interaction site.
+* DIDRDALYVTNAVKHFKFTRAAGGKRR,0,1,0: This is a K-centered ligand interaction segment, with the center K being a ligand interaction site.
 
-`SRTRPADWYESLMKAYVIDTVSADFYR,0,0,1: This is a K-centered non-functional segment, with the center K being a non-functional residue.
+* SRTRPADWYESLMKAYVIDTVSADFYR,0,0,1: This is a K-centered non-functional segment, with the center K being a non-functional residue.
 
 
 # Computed features
